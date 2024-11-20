@@ -1,0 +1,129 @@
+
+ #main{
+  min-height: 100vh;
+ width: 100%;
+ background-color: rgb(213, 207, 220);
+ 
+}
+.container .mg1{
+  background-blend-mode: multiply;
+  height: 80vh;
+  border-radius: 40%;
+  padding-top: 50px;
+  width: 100%;
+}
+#main #mainhead{
+    margin-top: 20%;
+    
+}
+ #main.page-link{
+    border: none;
+    color: black;
+}
+.page-link:hover{
+    background: none;
+}
+
+.sidemenu{
+    position: fixed;
+    z-index: 99;
+    top: 20%;
+    left: 0px;
+}
+.sidemenu li{
+    border-radius: 100% !important;
+    margin: 10px 0px;
+    width: 60px;
+    height: 60;
+    text-align: center;
+    line-height: 40px;
+    margin-left: 20px;
+
+}
+.sidemenu li:hover{
+    background-color: rgb(162, 226, 43);
+}
+.sidemenu li a{
+    color: black;
+}
+#about{
+    width: 100%;
+    min-height: 100vh;
+}
+
+#about .fa-chevron-right{
+    color: skyblue;
+    margin-right: 10px;
+}
+.ml11 {
+  font-size: 1.5em;
+}
+
+.ml11 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+}
+
+.ml11 .line {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 3px;
+  background-color: #fff;
+  transform-origin: 0 50%;
+}
+
+.ml11 .line1 { 
+  top: 0; 
+  left: 0;
+}
+
+.ml11 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+#fact{
+  width:100%;
+  min-height: 60vh;
+}
+#fact #icon{
+  width:50px;
+  height:50px;
+  background: skyblue;
+  border-radius: 100%;
+  text-align: center;
+  line-height: 50px;
+}
+#skills
+{
+  width: 100%;
+  min-height: 60vh;
+}
+#resume
+{
+  width: 100%;
+  min-height: 100vh;
+}
+#resume #info{
+  border-left:2px solid skyblue ;
+  padding-left: 20px;
+}
+
+#resume #info #info_icon{
+  width: 20px;
+  height: 20px;
+  border: 1px solid skyblue;
+  border-radius: 100%;
+  position: relative;
+  left: -30px;
+  top: -20px;
+}
+#resume #content
+{
+  width: 100%;
+  margin-top: -40px;
+}
